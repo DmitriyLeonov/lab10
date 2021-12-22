@@ -35,7 +35,7 @@ namespace lab10
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(this.LastUpdate);
         }
 
         public bool Contains(T item)
@@ -55,7 +55,7 @@ namespace lab10
 
         public int IndexOf(T item)
         {
-            throw new NotImplementedException();
+            return 1;
         }
 
         public void Insert(int index, T item)
